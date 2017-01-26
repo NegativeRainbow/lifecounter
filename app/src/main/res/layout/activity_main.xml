@@ -49,25 +49,25 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+"/>
+            android:text="+" />
         <Button
             android:id="@+id/p1lose1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-"/>
+            android:text="-" />
         <Button
             android:id="@+id/p1gain5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+5"/>
+            android:text="+5" />
         <Button
             android:id="@+id/p1lose5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-5"/>
+            android:text="-5" />
 
         <!-- Player 2 -->
         <Button
@@ -75,25 +75,25 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+"/>
+            android:text="+" />
         <Button
             android:id="@+id/p2lose1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-"/>
+            android:text="-" />
         <Button
             android:id="@+id/p2gain5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+5"/>
+            android:text="+5" />
         <Button
             android:id="@+id/p2lose5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-5"/>
+            android:text="-5" />
 
     </LinearLayout>
 
@@ -112,7 +112,7 @@
             android:text="Player 3"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
 
         <TextView
             android:layout_width="0dp"
@@ -121,7 +121,7 @@
             android:text="Player 4"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
 
     </LinearLayout>
 
@@ -139,25 +139,25 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+"/>
+            android:text="+" />
         <Button
             android:id="@+id/p3lose1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-"/>
+            android:text="-" />
         <Button
             android:id="@+id/p3gain5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+5"/>
+            android:text="+5" />
         <Button
             android:id="@+id/p3lose5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-5"/>
+            android:text="-5" />
 
         <!-- Player 4 -->
         <Button
@@ -165,33 +165,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+"/>
+            android:text="+" />
         <Button
             android:id="@+id/p4lose1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-"/>
+            android:text="-" />
         <Button
             android:id="@+id/p4gain5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+5"/>
+            android:text="+5" />
         <Button
             android:id="@+id/p4lose5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-5" />
+            android:text="-5"
+            />
 
     </LinearLayout>
-
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -209,8 +204,9 @@
             android:id="@+id/p3life"
             android:textStyle="bold"
             android:textSize="50dp"
-            android:text="Error"
-            android:gravity="center"/>
+            android:text="20"
+            android:gravity="center"
+        />
 
         <TextView
             android:layout_width="0dp"
@@ -219,8 +215,8 @@
             android:id="@+id/p4life"
             android:textStyle="bold"
             android:textSize="50dp"
-            android:text="Error"
-            android:gravity="center"/>
+            android:text="20"
+            android:gravity="center" />
     </LinearLayout>
 
     <LinearLayout
@@ -239,7 +235,7 @@
             android:id="@+id/p1life"
             android:textStyle="bold"
             android:textSize="50dp"
-            android:text="Error"
+            android:text="20"
             android:gravity="center"/>
 
         <TextView
@@ -249,7 +245,7 @@
             android:id="@+id/p2life"
             android:textStyle="bold"
             android:textSize="50dp"
-            android:text="Error"
+            android:text="20"
             android:gravity="center"/>
     </LinearLayout>
 

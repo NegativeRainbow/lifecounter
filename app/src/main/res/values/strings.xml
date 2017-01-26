@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Life Counter</string>
+    <item type="id" name="player" />
+    <item type="id" name="change" />
+    <string id="0" name="player1">0</string>
+    <string id="1" name="player2">1</string>
+    <string id="2" name="player3">2</string>
+    <string id="3" name="player4">3</string>
+    <string id="+1" name="gain1">1</string>
+    <string id="-1" name="lose1">-1</string>
+    <string id="+5" name="gain5">5</string>
+    <string id="-5" name="lose5">-5</string>
+
 </resources>
